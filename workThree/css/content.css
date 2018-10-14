@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;;
+}
+html
+{
+	width: 100%;
+	height: 100%;
+}
+body
+{
+	width: 100%;
+	height: 100%;
+}
+#big
+{
+	background-image: url(../img/content-background6.jpg);
+	background-repeat: no-repeat;
+	filter: alpha(opacity=0.9);
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+	/*filter:alpha(opacity=90); /*支持 IE 浏览器*/
+	/*-moz-opacity:0.90; 支持 FireFox 浏览器*/
+	/*opacity:0.90; 支持 Chrome, Opera, Safari 等浏览器*/*/
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#left
+{
+	position: absolute;
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 10%;
+	display: inline-block;
+
+	height: 100%;
+}
+#right
+{
+	width:80%;
+	display: inline-block;
+	height: 100%;
+}
+ #left ul
+{
+
+	list-style-type: none;
+		height: 100%;
+}
+ #left ul li
+ {
+ 	display: block;
+	background-color: #FFF0F5;
+	filter: alpha(opacity:0.9);
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+ 	font-size: 12px;
+ 	width: 100%;
+ 	height: 16.4%;
+ 	line-height:800%;
+ 	border: 1px solid white;
+ 	
+ }
+ a{
+ 	text-decoration: none;
+ }
+ #left i
+ {
+ 	float: left;
+ 	display: inline;
+ 	width: 40px;
+ 	height: 40px;
+ 	line-height:90px;
+ 	background-image: url(../img/icon.jpg);
+ 	margin-top:30px;
+ 	margin-left: 10px;
+}
+iframe
+{
+	margin-top: 30px;
+	padding-left: 0px;
+	border: 1px solid #FFF0F5;
+	margin-left: 0px;
+	width: 1000px;
+	height: 800px;
+}

@@ -1,0 +1,38 @@
+body{
+	background-color: #A9A9A9;
+}
+h1
+{
+	text-align: center;
+}
+#main
+{
+	background-image: url(../img/background2.jpg);
+	margin: auto;
+	width: 67%;
+	height: 100%;
+	word-break:break-all;
+	word-wrap: break-word;
+}
+#btn
+{
+	margin-left: 400px;
+	text-align:  right;
+}
+#down
+{
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 10px;;
+}
+#btn button
+{
+	width: 80px;
+	height: 25px;
+	margin-right: 15px;
+	background-color: bisque;
+}
+section p{
+	margin-bottom: -20px;
+	text-indent: 2em; /* 设置每个段落前保留两个字体空格*/
+}

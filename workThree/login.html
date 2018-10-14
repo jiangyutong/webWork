@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>  
+		<meta charset="UTF-8">
+		<title>蒋宇童的网站</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	</head>   
+	<body>
+		  <p class="tm" id="tm">这是一个小小网页</p>
+	<p class="zs" id="zs">是我第三次作业的练习</p>
+
+ <button class="btn-primary" data-toggle="modal" data-target="#myModal">注册登录
+</button>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+	 			</button>
+			</div>
+			<div class="modal-body">
+				<div id="divOne">  
+		<div id="divTwo">
+	<form method="get" >
+		<p><label class="wenzi">用户名:</label><input class="inputs" align="left"  type="text" placeholder="请输入6-12位用户名"/></p>
+		<p><label  class="wenzi">昵称:</label><input class="inputs"  align="left"  type="text" placeholder="请输入大家对你的昵称"/></p>
+		<p><label  class="wenzi">密码:</label><input class="inputs" align="left"  type="password" placeholder="请输入8-16位英文，数字或符号的密码"/></p>
+		<p><label  class="wenzi">确认密码:</label><input class="inputs" type="password" placeholder="请再次输入密码"/></p>
+		<p><label  class="wenzi">手机:</label><input class="inputs" type="text" placeholder="请输入你的手机号"/></p>
+		<p><label  class="wenzi">性别:</label> 
+		<input type="radio" class="inputs" id="secret" checked="checked"  name="xb"/> <label for="secret">保密</label>
+		 <input type="radio" class="inputs" id="man"  name="xb"/> <label for="man">男</label>
+		  <input type="radio" class="inputs" id="female"  name="xb"/> <label for="female">女</label>
+		</p>
+		<p><label  class="wenzi">爱好:</label> 
+		<input type="checkbox" class="inputs" id="book"  name="hobby"/> <label for="book">看书</label>
+		 <input type="checkbox" class="inputs" id="motion"  name="hobby"/> <label for="motion">运动</label>
+		  <input type="checkbox" class="inputs" id="computer"  name="hobby"/> <label for="computer">电脑</label>
+		  <input type="checkbox" class="inputs" id="travel"  name="hobby"/> <label for="travel">旅游</label></p>
+		  <p><label  class="wenzi">所属行业  :</label>
+		  <select id="selectOne">
+		  	<option>请选择</option>
+		  	<option>舞蹈行业</option>
+		  	<option>IT行业</option>
+		  	<option>教师行业</option>
+		  	<option>培训行业</option>
+		  </select></p>
+		  <p><label class="wenzi">个人主页:</label>
+		  <input list="datal" placeholder="https://www.aulence.com"/>
+		  <datalist id="datal" class="inputs">
+		  	<option>https://blog.csdn.net/fe_dev/article/details/75948659</option>
+		  	<option>https://www.runoob.com/bootstrap/bootstrap-forms.html</option>
+		  	<option>https://www.aulence.com</option>
+		  	<option>www.baidu.com</option>
+		  </datalist> </p>
+		  	<p><label  class="wenzi">个人简介:</label><textarea class="inputs" placeholder="让大家更愉快的认识你"></textarea></p>
+	</form>
+	</div>
+	<div id="divThree">
+	<form method="get" action="content.html">
+		<p><label class="wenzi">用户名:</label><input class="inputs" align="left"  type="text" placeholder="请输入用户名/电话号码"/></p>
+		<p><label  class="wenzi">密码:</label><input class="inputs" align="left"  type="password" placeholder="请输入密码"/></p>
+	
+	</div>
+	<input  type="submit" class="btnOne" id="login" value="登录"></input> <input type="button" class="btnOne" id="register" value="注册"></input></form>
+	</div> 
+			</div>
+			<div class="modal-footer">
+				
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+  
+	</body> 
+	   
+</html>
+  
