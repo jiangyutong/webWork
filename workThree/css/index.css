@@ -1,0 +1,99 @@
+
+body
+{
+	background:url(../img/background.jpg);
+}
+
+p.tm
+{
+	-moz-animation: myfirst 50s;	/* Firefox */
+	-webkit-animation: myfirst 50s;	/* Safari 和 Chrome */
+	-o-animation: myfirst 50s;
+	margin-top: 200px;
+	margin-left: 50px;;
+	font-size:60px;
+	font-family:华文彩云;
+	color:#FF5EAE;
+}
+p.zs
+{
+	-moz-animation: myfirst1 100s;	/* Firefox */
+	-webkit-animation: myfirst1 100s;	/* Safari 和 Chrome */
+	-o-animation: myfirst1 50s;
+	margin-left:60px;;
+	font-size:40px;
+	font-family:幼圆;
+	color:#004B97;
+}
+@keyframes myfirst
+{
+	
+	0%   {color:#FF5EAE;transform:rotate(5deg);}
+	5%  {color:#004B97;}
+	10% {color:#FF5EAE;transform:rotate(-1deg);}
+	20%   {color:#004B97;}
+	30%  {color:#FF5EAE;transform:rotate(5deg);}
+	40% {color:#004B97;}
+	50%   {color:#FF5EAE;transform:rotate(-1deg);}
+	60%  {color:#004B97;}
+	70% {color:#FF5EAE;transform:rotate(5deg);}
+	80%   {color:#004B97;}
+	90%  {color:#FF5EAE;transform:rotate(-1deg);}
+	100% {color:#004B97;}
+}
+
+@keyframes myfirst1
+{
+	0%   {color:#004B97;transform:rotate(-5deg);}
+	5%  {color:#FF5EAE;}
+	10% {color:#004B97;transform:rotate(1deg);}
+	20%   {color:#FF5EAE;}
+	30%  {color:#004B97;transform:rotate(-5deg);}
+	40% {color:#FF5EAE;}
+	50%   {color:#004B97;transform:rotate(1deg);}
+	60%  {color:#FF5EAE;}
+	70% {color:#004B97;transform:rotate(-5deg);}
+	80%   {color:#FF5EAE;}
+	90%  {color:#004B97;transform:rotate(1deg);}
+	100% {color:#FF5EAE;}
+}
+.wenzi
+{
+	      display: inline-block;
+            padding: 3px 6px;
+            text-align: right;
+            width: 150px;
+             vertical-align: top;
+}
+#selectOne
+{
+	width: 150px;
+}
+#divOne
+{
+	background-image: url(../img/login-background.jpg);
+	border: solid 1px black;
+	width: 420px;
+	margin-left: 70px;
+}
+.btnOne
+{
+	width: 90px;
+	height: 30px;
+	margin-left: 60px;
+	margin-right: 20px;
+	background-color:lavenderblush;
+}
+#divTwo
+{
+	display: none;
+}
+.btn-primary
+{
+	margin-left: 967px;
+	margin-top: 20px;
+	border-radius: 60px;
+	width: 60px;
+	height: 60px;
+	font-size: 15px;
+}

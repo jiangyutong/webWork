@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/3.css" type="text/css" />
+	</head>
+	<body>
+			<div id="floater">
+			<div id="content">
+				<h1>
+				表单用上h5的属性
+				</h1>
+		<form name="total" id="textH5" action="http://www.w3school.com.cn/tags/tag_iframe.asp"/>
+		<label>form/autofocus/pattern:</label><input form="textH5" autofocus="autofocus"  /><br>
+		<label>multiple:</label><input type="file" multiple="multiple" /><br>
+		<label>width/height:</label><input type="image" src="img/icon3.jpg" width="20px" height="20px" pattern="[A-Za-z]{3}"/><br>
+		<label>pattern:</label><input pattern="[A-Za-z]{3}"/><br>
+		<label> formenctype/formmethod:</label><input type="submit" formmethod="post" formenctype="multipart/form-data" formtarget="_blank"/><br> <!--不对字符编码。当使用有文件上传控件的表单时，该值是必需的。-->
+		</form>
+		<form action="http://www.w3school.com.cn/tags/tag_iframe.asp">
+			<label> First name:</label><input pattern="[A-Za-z]{3}"/><br>
+		<label> Last name:</label><input pattern="[A-Za-z]{3}"/><br>
+		<label><input type="submit" value="提交one"><br></label>
+		  <input type="submit" formaction="https://www.cnblogs.com/"formnovalidate="formnovalidate" target="iframe_a" value="提交two"><br>
+		</form>
+	</div>
+	</div>
+	</body>
+</html>

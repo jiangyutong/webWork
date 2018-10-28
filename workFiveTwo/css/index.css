@@ -1,0 +1,335 @@
+body
+{
+	background: azure;
+}
+.clear:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+header
+{
+	height: 30px;
+	width: 100%;
+	min-width: 950px;
+	background: rgba(95 ,158, 160 ,0.6);
+	box-shadow: 0 1px 9px rgba(95,158,160,0.9);
+}
+header .header-content
+{
+	width: 950px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+header  a
+{
+	font-size: 13px;
+	color: lavenderblush;
+}
+header .nav-one
+{
+	font-size: 13px;
+	color:deepskyblue;
+	display: inline;
+	float: left;
+	margin-right: 20px;
+}
+header .nav-two
+{
+	font-size: 13px;
+	color:deepskyblue;
+	display: inline;
+	float: left;
+ margin-right: 20px;
+}
+header .header-right
+{
+	float: right;
+	font-size: 13px;
+	color: lavenderblush;
+}
+header .username ,.password
+{
+	width: 155px;
+	float: left;
+	overflow: hidden;
+}
+header .username-lable,.password-lable
+{
+	text-align: left;
+	float: left;
+}
+header .username-input,.password-input
+{
+	margin-top: 3px;
+	float:  left;
+	width: 90px;
+}
+header .username-input2,.password-input2
+{
+	float:  left;
+	width: 87px;
+}
+
+header .login 
+{
+	border-radius: 10px;
+	color: darksalmon;
+	box-shadow: 0 1px 9px rgba(111,237,208,0.9);
+	float: left;
+	width: 55px;
+}
+header .last
+{
+	font-size: 13px;
+	float: left;
+}
+header .forget
+{
+	padding: 0 10px;
+}
+nav
+{
+	height: 61px;
+	width: 980px;
+	margin: auto;
+}
+nav .href-one
+{
+	width: 150px;
+	float: left;
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 5px;
+
+}
+nav .href-one a
+{
+	color: cadetblue;
+	font-size: 30px;
+}
+nav .hr
+{
+	display: inline-block;
+	width: 1px;
+	height: 20px;
+	background: black;
+}
+nav .href-two
+{
+	width: 100px;
+	float: left;
+	color: cadetblue;
+	font-size: 20px;
+	font-style:oblique;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+nav .href-two p
+{
+	margin: 0;
+	padding: 0;
+}
+nav .href-three
+{
+	float: left;
+	margin-top: 30px;
+}
+nav .href-three input
+{
+	width: 300px;
+	height: 31px;
+	border-radius: 20px;
+}
+nav .ssdiv
+{
+		margin-top: 30px;
+		margin-left: 10px;
+	float: left;
+}
+nav .ss
+{
+	background: azure;
+	border-radius: 20px;
+	width: 70px;
+	height: 30px;
+	
+}
+nav .header-four p
+{
+	margin: 0;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+nav .header-four
+{
+	margin-top: 15px;
+	border: 1px solid  cadetblue;
+	float:right;
+}
+.navTwo
+{
+	height: 50px;
+	width: 980px;
+	margin: 50px auto auto;
+	background: cadetblue;
+}
+.navTwo li
+{
+	float: left;
+	line-height: 50px;
+	list-style: none;
+	padding-left: 25px;
+}
+.main
+{
+	
+	width: 980px;
+	
+	margin: 20px auto auto;
+}
+.right
+{
+		height: 380px;
+	width: 265px;
+	float: right;
+	margin: 2 auto;
+	border: 2px solid cadetblue;
+	
+}
+.left
+{
+
+	height: 370px;
+	width: 695px;
+	float: left;
+	padding: 0 0 10px;
+	margin: 2 auto;
+	border: 2px solid cadetblue;
+}
+.item
+{
+	width: 335px;
+	float: left;
+	padding: 10px 0 0 10px;
+}
+.image
+{
+	float: left;
+	width: 120px;
+}
+dl
+{
+	float: right;
+	width: 190px;
+	padding: 0 5px 0 0 ;
+}
+dt 
+{
+	border-bottom: 1px dotted #A6D3E8;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+}
+dt span
+{
+	float: right;
+}
+dd
+{
+	height: 120px;
+	line-height: 20px;
+	text-indent: 2ex;
+	padding: 7px 0 0;
+	font-size: 12px;
+}
+dt a
+{
+	color: cadetblue;
+}
+.spanOne
+{
+	font-size: 14px;
+	margin-left: 10px;
+	
+}
+dt a:hover
+{
+	text-decoration: underline;
+}
+.hr2
+{
+	width: 265px;
+	height: 1px;
+	margin: 10px 0;
+	margin-bottom: 20px;
+background: cadetblue;
+}
+.spanTwo
+{
+
+	font-size: 13px;
+}
+h4
+{
+	padding: 3px;
+	margin: 0;
+
+}
+.hr3
+{
+	width: 200px;
+	height: 1px;
+	margin-left: 3px;
+	margin-top: 10px;
+background: #A6D3E8;
+
+}
+.right span a
+{
+	color:  #5F9EA0;
+}
+.right span a:hover
+{
+	text-decoration: underline;
+}
+.h4t
+{
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+footer
+{
+	margin: 30px auto;
+	height: 70px;
+	width: 80%;
+	min-width: 950px;
+	background: rgba(95 ,158, 160 ,0.6);
+	box-shadow: 0 1px 9px rgba(95,158,160,0.9);
+}
+footer .footer-one
+{
+	font-size: 15px;
+	float: left;
+	padding-top: 23px;
+	margin-left: 20px;
+}
+footer .footer-two
+{
+	float: left;
+	padding-top: 23px;
+	margin-left: 20px;
+	font-size: 15px;
+}
+footer .footer-three
+{
+	float: right;
+	padding-top: 50px;
+	margin-right: 50px;
+	font-size: 12px;
+}
