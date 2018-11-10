@@ -1,0 +1,77 @@
+.buttons
+{
+	width: 25%;
+	margin: 20px auto;
+}
+.styleOne
+{
+	background:#DEB887;
+}
+.styleTwo
+{
+	background: cadetblue;
+}
+.styleThree
+{
+	background: cornflowerblue;
+}
+.styleFour
+{
+	background:darkblue; 
+}
+.tableContianer
+{
+	width: 100%;
+}
+.initClass
+{
+	width: 50%;
+	margin: 0 auto;
+	background:darksalmon;
+}
+/*风格一的样式*/
+.classOne
+{
+	width: 30%;
+	margin: 0 auto;
+	background: deepskyblue;
+}
+.classOdd
+{
+	
+	background:#E9967A;
+}
+.classEven
+{
+	background:#DEB887;;
+}
+.thead
+{
+	background: beige;
+}
+   
+
+/*风格二的样式*/
+.classTwo
+{  
+	margin: 0 auto;
+	background: cadetblue;
+	width: 50%;
+}
+/*风格三的样式*/
+.classThree
+{
+	width: 80%;
+	margin: 0 auto;
+	background:cornflowerblue;
+}
+/*风格四的样式*/
+.classFour
+{
+	width: 50%;
+	margin: 0 auto;
+ font-family: "blackadder itc";
+ font-size: 15px;
+ color: #DEB887;
+ background-color:darkblue; 
+}
